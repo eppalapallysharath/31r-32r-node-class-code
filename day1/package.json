@@ -1,0 +1,14 @@
+{
+  "name": "intro_node",
+  "version": "1.0.0",
+  "description": "\"this node introduction\"",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev" : "node server.js",
+    "sharath": "node server.js"
+  }
+}
