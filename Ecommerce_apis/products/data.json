@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "lenovo legion 5",
+    "category": "electronics",
+    "price": 60000
+  },
+  {
+    "id": 2,
+    "name": "Pollo T-shirt ",
+    "category": "clothes",
+    "price": 5000
+  }
+]
