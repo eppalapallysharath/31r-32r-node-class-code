@@ -1,14 +1,1 @@
-[
-  {
-    "id": 1,
-    "name": "lenovo legion 5",
-    "category": "electronics",
-    "price": 60000
-  },
-  {
-    "id": 2,
-    "name": "Pollo T-shirt ",
-    "category": "clothes",
-    "price": 5000
-  }
-]
+[{"id":2,"name":"Pollo T-shirt ","category":"clothes","price":5000},{"name":"samsung ultra","category":"electronics","price":80000,"id":"887b974a-ad56-4074-bd1d-51568cff1511"},{"name":"apples","category":"fruits","price":100,"id":"0809f5cf-6ff6-4041-844f-58e5c805b47d"}]

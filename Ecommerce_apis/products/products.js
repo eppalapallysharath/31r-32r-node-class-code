@@ -9,4 +9,9 @@ const readFile = () => {
   return JSON.parse(filedata);
 };
 
-module.exports = { readFile };
+// 9/07/2025
+const writeFile = (data) => {
+  fs.writeFileSync(filepath, JSON.stringify(data));
+};
+
+module.exports = { readFile, writeFile };
