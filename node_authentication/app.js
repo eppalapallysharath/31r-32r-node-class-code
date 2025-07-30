@@ -6,19 +6,16 @@ const connectDatabase = require("./config/db.js");
 const userRoutes = require("./routes/userRoutes.js");
 const jwt = require("jsonwebtoken");
 
-const user = {
-  userName: "revanth",
-  bio: "",
-  email: "revanth@gmail.com",
-};
+// const user = {
+//   userName: "revanth",
+// };
 
-// const token = jwt.sign(user, "jdsadandanneaeadfasas", {
-//   algorithm: "HS256",
-// });
-const token =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJldmFudGgiLCJiaW8iOiIiLCJlbWFpbCI6InJldmFudGhAZ21haWwuY29tIiwiaWF0IjoxNzUzNzkyNDc5fQ.13_vzgIuNDPL7z-6LS5L6PPhhoVOoiO_ZtvSJRP2B0c";
-console.log(token);
-console.log(jwt.verify(token, process.env.jwt_secret_key));
+// const token = jwt.sign(user, "jdsadandanneaeadfasas");
+// console.log(token);
+// const token =
+//   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJldmFudGgiLCJiaW8iOiIiLCJlbWFpbCI6InJldmFudGhAZ21haWwuY29tIiwiaWF0IjoxNzUzNzkyNDc5fQ.13_vzgIuNDPL7z-6LS5L6PPhhoVOoiO_ZtvSJRP2B0c";
+// console.log(token);
+// console.log(jwt.verify(token, process.env.jwt_secret_key));
 
 connectDatabase();
 

@@ -4,12 +4,15 @@ const {
   loginController,
   signupController,
   profileController,
+  editProfile,
 } = require("../controllers/userController.js");
+const { checkAuth } = require("../middlewares/authMiddlewares.js");
 
 router.post("/signup", signupController);
 
 router.post("/login", loginController);
-
-router.get("/profile", profileController);
+// protected api or authenticated apis
+router.put("/editProfile", checkAuth, editProfile);
+router.get("/profile", checkAuth, profileController);
 
 module.exports = router;
